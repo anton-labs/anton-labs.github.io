@@ -388,6 +388,13 @@ h2 {
   margin: 0 auto 22px;
 }
 
+.contact-link {
+  color: var(--accent-deep);
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(28px);
