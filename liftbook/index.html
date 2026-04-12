@@ -23,6 +23,7 @@
         <nav class="site-nav">
           <a href="../">Home</a>
           <a href="privacy-policy/">Privacy policy</a>
+          <a href="terms/">Terms</a>
           <a href="mailto:info.antonlabs@gmail.com">Contact</a>
         </nav>
       </header>
@@ -47,8 +48,8 @@
               <a class="button button-primary" href="privacy-policy/">
                 Read privacy policy
               </a>
-              <a class="button button-secondary" href="mailto:info.antonlabs@gmail.com">
-                Contact Anton Labs
+              <a class="button button-secondary" href="terms/">
+                Read terms
               </a>
             </div>
           </div>
@@ -66,6 +67,40 @@
           <div>
             <span class="metric-value">03</span>
             <p>Offline-friendly flow built for consistent daily use.</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="eyebrow">Tech stack</p>
+            <h2>Built with a modern web-to-Android stack</h2>
+          </div>
+          <div class="card-grid">
+            <article class="info-card">
+              <span class="card-tag">Frontend</span>
+              <h3>React, TypeScript, and Vite</h3>
+              <p>
+                Liftbook is built with React, Vite, and TypeScript for a fast,
+                responsive interface and an efficient development workflow.
+              </p>
+            </article>
+            <article class="info-card">
+              <span class="card-tag">UI</span>
+              <h3>Tailwind CSS and shadcn/ui</h3>
+              <p>
+                The app uses a lightweight component-driven UI stack focused on
+                clean structure and fast interaction.
+              </p>
+            </article>
+            <article class="info-card">
+              <span class="card-tag">Android</span>
+              <h3>Capacitor packaging for mobile delivery</h3>
+              <p>
+                The Android build is packaged through Capacitor while workout
+                data remains local on the device through IndexedDB and browser
+                storage.
+              </p>
+            </article>
           </div>
         </section>
 
@@ -104,29 +139,30 @@
 
         <section class="section split-section">
           <div class="section-heading">
-            <p class="eyebrow">Privacy</p>
-            <h2>Your training data stays close to you</h2>
+            <p class="eyebrow">Data handling</p>
+            <h2>Local-first storage with import and export support</h2>
           </div>
           <div class="focus-list">
             <div class="focus-item">
-              <h3>Local-first by design</h3>
+              <h3>Stored on device</h3>
               <p>
-                Liftbook is designed to store workout information on your own
-                device rather than requiring an account to get started.
+                Liftbook currently stores workout data locally using IndexedDB
+                for workouts, templates, and records, plus <code>localStorage</code>
+                for active session state and preferences.
               </p>
             </div>
             <div class="focus-item">
-              <h3>Offline-friendly</h3>
+              <h3>Portable data</h3>
               <p>
-                The core app experience is built to keep working even when you
-                do not have a connection.
+                The app supports local JSON export and import so users can move
+                or back up their training history manually.
               </p>
             </div>
             <div class="focus-item">
-              <h3>Clear public policy</h3>
+              <h3>Clear public docs</h3>
               <p>
-                A dedicated privacy policy page explains what data the app
-                stores, how it is used, and how to contact Anton Labs.
+                Privacy and usage terms are published openly so store listings
+                and support links can point to stable public pages.
               </p>
             </div>
           </div>
@@ -134,7 +170,7 @@
 
         <section class="cta">
           <p class="eyebrow">More info</p>
-          <h2>Need policy details or app support?</h2>
+          <h2>Need policy details, terms, or app support?</h2>
           <p>
             For support, privacy questions, or future release updates, contact
             <a class="contact-link" href="mailto:info.antonlabs@gmail.com">info.antonlabs@gmail.com</a>.
@@ -143,8 +179,11 @@
             <a class="button button-primary" href="privacy-policy/">
               Open privacy policy
             </a>
-            <a class="button button-secondary" href="../">
-              Back to Anton Labs
+            <a class="button button-secondary" href="terms/">
+              Open terms of use
+            </a>
+            <a class="button button-secondary" href="mailto:info.antonlabs@gmail.com">
+              Contact Anton Labs
             </a>
           </div>
         </section>
